@@ -24,10 +24,10 @@ The co-location/formatting scripts are ..\Code\Addtional\Rrs_collocate.py and ..
 
 # Running the code
 
-  (i) To train the algorithm, the user has to first run ..Code\SDP-log\SDP_hyperRrs.py, which derives the residual delta_Rrs for each co-located HPLC: Rrs record. 
+  (i) To train the algorithm, the user has to first run ..\Code\SDP-log\SDP_hyperRrs.py, which derives the residual delta_Rrs for each co-located HPLC: Rrs record. 
 
-  (ii) The user then has to train the statistical model ..Code\SDP-log\SDP_pigments_train.py, which derives performance metrics and algorithm coefficients that can be used on non-trained Rrs
+  (ii) The user then has to train the statistical model ..\Code\SDP-log\SDP_pigments_train.py, which derives performance metrics and algorithm coefficients that can be used on non-trained Rrs
 
- (iii) An example of applying the algorithm coefficients (alpha, beta) to non-trained Rrs (continuous Rrs data from AMT30) ...Code\Addtional\Transect_pigments_AMT30.py. 
+ (iii) An example of applying the algorithm coefficients (alpha, beta) to non-trained Rrs (continuous Rrs data from AMT30) ...\Code\Addtional\Transect_pigments_AMT30.py. 
 
 
